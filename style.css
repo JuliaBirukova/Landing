@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url("redTree.jpg");
+    background-size: cover;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.425);
+    margin: 20px 0;
+}
+.banner a {
+    display: inline-block;
+    transition: 0.3s;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.61);
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+}
+.banner .menu a:hover{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.banner {
+    background-image: url("city (1).jpg");
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.menu {
+    background-color: rgba(0, 0, 0, 0.322);
+    text-align: center;
+    font-size: 0;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin: 50px 0;
+    margin-top: 90px;
+    text-shadow: 0 0 10px rgba(156, 127, 127, 0.61);
+}
+.banner p{
+    float:right;
+    width: 60%;
+    text-align: right;
+    background: rgb(255,255,255);
+margin-bottom: 40px;
+padding: 20px;
+background: rgb(150,112,125);
+background: rgb(255,255,255);
+background: linear-gradient(84deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.5441526952577906) 43%, rgba(0,0,0,0.6674019949776786) 100%);
+color: rgb(255, 255, 255);
+border-radius: 15px;
+margin-right: 20px;
+}
+.banner div{
+    width: 100%;
+    float: right;
+    text-align: center;
+}
+.bannerButton{
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.87);
+    border: 2px solid white;
+    color: rgba(0, 0, 0, 0.658) !important;
+    border-radius: 10px;
+}
+.bannerButton:hover{
+    background-color: white;
+}
+.sectionTitle{
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.493);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.info{
+    width: 23%;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0.377);
+    margin-right: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+.kartinkaOne{
+    width: 55%;
+    vertical-align: middle;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.623);
+}
+section{
+    text-align: center;
+}
+.info p{
+    text-align: left;
+}
+.info h5{
+    margin-top: 20px;
+}
+.studios{
+    text-align: center;
+}
+.studios p{
+    text-align: center;
+}
+.studios .sectionTitle{
+    margin-bottom: 0;
+}
+.country{
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.473);
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.country:nth-of-type(1){
+    background-image: url("New Zealand.jpg");
+}
+.country:nth-of-type(2){
+    background-image: url("Iceland.jpg");
+}
+.country:nth-of-type(3){
+    background-image: url("Norway.jpg");
+}
+.country h4{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    color: white;
+    text-shadow: 0 0 10px black;
+    font-size: 23px;
+}
+li{
+    background-color: rgba(255, 255, 255, 0.644);
+    list-style: none;
+}
+.button{
+    text-align: center;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 7px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 40px;
+    transition: 0.3s;
+}
+.button:hover{
+    background-color:#da8542 ;
+    color: #311e0f;
+
+}
+.names h2{
+    font-size: 10px;
+}
+.lorem{
+    text-align: left;
+}
+.page{
+    color: rgba(255, 255, 255, 0.685);
+    transition: 0.3s;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.562);
+    color: rgba(0, 0, 0, 0.726);
+    border-radius: 10px;
+    display: inline-block;
+}
+.page:hover{
+    background-color: rgb(255, 255, 255);
+}
+.team{
+    text-align: center;
+}
+.human div:nth-of-type(1){
+    background-image: url("мужик.jpg");
+}
+.paragraph{
+    margin-bottom: 10px;
+}
+.human{
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.473);
+    display: inline-block;
+    vertical-align: middle;
+    width: 25%;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+.human img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+.human p{
+    margin: 0 0 20px;
+}
+.feedback{
+    text-align: center;
+}
+.feedback .sectionTitle{
+    margin-bottom: 0;
+}
+button{
+    color: rgba(255, 255, 255, 0.685);
+    transition: 0.3s;
+    text-align: center;
+    text-decoration: none;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    background-color: rgba(255, 255, 255, 0.562);
+    color: rgba(0, 0, 0, 0.726);
+    border-radius: 10px;
+    display: inline-block;
+    border: none;
+    margin-bottom: 100px;
+}
+button:hover{
+    background-color: rgb(255, 255, 255);
+}
+input{
+    display: block;
+    margin: auto;
+    font-size: 15px;
+    margin-bottom: 5px;
+    height: 40px;
+    padding: 0 5px;
+    border: none;
+    border-radius: 3px;
+    width: 90%;
+    max-width: 400px;
+    box-sizing: border-box;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+form{
+    margin-top: 10px;
+}
+textarea{
+    width: 90%;
+    max-width: 400px;
+    border-radius: 3px;
+    display: block;
+    margin: auto;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 15px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    resize: none;
+}
+.gallery{
+    font-size: 0;
+}
+.gallery img{
+    object-fit: cover;
+    width: calc(100% / 3);
+    height: 300px;
+    object-position: center;
+}
+@media (max-width: 600px){
+    h2{
+        font-size: 30px;
+    }
+    .banner p{
+        width: auto;
+    }
+    .info{
+        width: 90%;
+        box-sizing: border-box;
+        display: block;
+        margin: auto;
+    }
+    .kartinkaOne{
+        width: 90%;
+        height: auto;
+        margin-top: 10px;
+    }
+    .country{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+    .human{
+        width: 90%;
+    }
+    .gallery img{
+        height: 180px;
+    }
+}
